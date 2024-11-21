@@ -19,9 +19,9 @@ const sidebars = {
   // But you can create a sidebar manually
 
   docSidebar: [
-    "unifi-rollup-intro",
-    "unifi-rollup-move-funds",
-    "unifi-rollup-bridge-ui"
+    "intro",
+    "move-funds",
+    "bridge-ui"
   ],
   developersSidebar: [
     {
@@ -39,12 +39,12 @@ const sidebars = {
         {
           type: "doc", 
           label: "Using Foundry",
-          id: "developers/rollup/smart-contracts/unifi-rollup-smart-contracts-foundry",
+          id: "developers/rollup/smart-contracts/deploy-foundry",
         },
         {
           type: "doc", 
           label: "Using Hardhat",
-          id: "developers/rollup/smart-contracts/unifi-rollup-smart-contracts-hardhat",
+          id: "developers/rollup/smart-contracts/deploy-hardhat",
         }
       ]
     },

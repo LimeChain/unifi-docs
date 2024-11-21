@@ -69,7 +69,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "unifi-rollup-intro",
+          docId: "intro",
           label: "Users",
           position: "left",
         },

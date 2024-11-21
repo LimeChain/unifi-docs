@@ -16,7 +16,8 @@ Before you begin, ensure you've:
 
    Then, open a new terminal, and call `foundryup` to install the latest release.
    :::info
-   Running `foundryup` will automatically install the latest (nightly) versions of the precompiled binaries: forge, cast, anvil, and chisel. For additional options, such as installing a specific version or commit, run `foundryup --help`
+   Running `foundryup` will automatically install the latest (nightly) versions of the precompiled binaries: forge, 
+   cast, anvil, and chisel. For additional options, such as installing a specific version or commit, run `foundryup --help`
    :::
 
 ## Create a Foundry project
@@ -38,7 +39,10 @@ cd unifi-smart-contract-tutorial
 ## Deploy a smart contract
 
 :::warning
-Directly pasting your private key into the command line poses security risks. The examples below are instructional and don't adhere to good security practices. To avoid exposing sensitive information such as wallet private keys, use `.env` files to store private data. Create a `.env` file, then add the file to the `.gitignore` file to prevent committing it. Populate the `.env` file with the private information.
+Directly pasting your private key into the command line poses security risks. The examples below are instructional 
+and don't adhere to good security practices. To avoid exposing sensitive information such as wallet private keys, 
+use `.env` files to store private data. Create a `.env` file, then add the file to the `.gitignore` file to 
+prevent committing it. Populate the `.env` file with the private information.
 :::
 
 Deploy your contract using the following syntax:
@@ -49,7 +53,8 @@ forge create --rpc-url <rpc_https_endpoint> src/Counter.sol:Counter --private-ke
 
 In the command:
 
-- `rpc_https_endpoint` is a RPC Endpoint for the UniFi network. You can find the endpoints in the [RPC Endpoints Reference](../../reference/rpc-endpoints.md).
+- `rpc_https_endpoint` is a RPC Endpoint for the UniFi network. You can find the endpoints in the
+[RPC Endpoints Reference](../../reference/rpc-endpoints.md).
 - `your_private_key` is your wallet's private key.
 
 Your output should look similar to:
@@ -78,6 +83,7 @@ In the command:
 
 - `rpc_https_endpoint` is a RPC Endpoint for the UniFi network. You can find the endpoints in the [RPC Endpoints Reference](../../reference/rpc-endpoints.md).
 - `your_private_key` is your wallet's private key.
-- `blockscout_homepage_explorer_url` is the URL of the block explorer explorer you're using. You can find the endpoints in the [RPC Endpoints Reference](../../reference/rpc-endpoints.md).
+- `blockscout_homepage_explorer_url` is the URL of the block explorer explorer you're using. You can find the endpoints
+in the [RPC Endpoints Reference](../../reference/rpc-endpoints.md).
 
 For more contract verification options, see the [verify-contract documentation](https://book.getfoundry.sh/reference/forge/forge-verify-contract).

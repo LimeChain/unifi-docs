@@ -46,7 +46,7 @@ You should now have a sample HardHat project with a `Lock` contract, that locks 
 
 :::note
 
-The default script in `ignition/modules/Lock.js` locks 1 GWEI in the contract upon deployment, you can modify this
+The default script in `ignition/modules/Lock.js` locks 1 gwei in the contract upon deployment, you can modify this
 value in the script.
 
 :::
@@ -113,7 +113,7 @@ LockModule#Lock - 0xA72022A83654E794B8e9FD7217ADF7378f3e985d
 
 Optionally, you can verify your contract on the network. This makes the source code publicly available.
 
-### Verify an already existing contract contract
+### Verify an already existing contract
 
 To verify a contract, you need to make a few modifications the project.
 

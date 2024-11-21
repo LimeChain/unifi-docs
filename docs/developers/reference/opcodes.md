@@ -1,6 +1,8 @@
 # Opcodes
 
-Since UniFi is based on Taiko, it inherits the same opcode behaviour as Taiko. Unless listed below, all opcodes are supported in UniFi and are EVM equivalent. The execution of some Opcodes is not verified by the circuits and its not part of the validity proofs.
+Since UniFi is based on Taiko, it inherits the same opcode behaviour as Taiko. Unless listed below,
+all opcodes are supported in UniFi and are EVM equivalent.
+The execution of some Opcodes is not verified by the circuits, and not part of the validity proofs.
 
 # Unsupported Opcodes
 
@@ -8,13 +10,14 @@ Since UniFi is based on Taiko, it inherits the same opcode behaviour as Taiko. U
 If an unsupported opcode is encountered during execution that is not supported in UniFi, the transaction will revert.
 :::
 The following opcodes are not supported in UniFi:
-| Opcode | Name | Solidity Equivalent |
+
+| Opcode | Name        | Solidity Equivalent |
 |--------|-------------|---------------------|
-| 49 | BLOBHASH | blobhash(index) |
-| 4A | BLOBBASEFEE | block.blobasefee |
-| 5C | TLOAD | tload(key) |
-| 5D | TSTORE | tstore(key, value) |
-| 5E | MCOPY | mcopy() |
+| 49     | BLOBHASH    | blobhash(index)     |
+| 4A     | BLOBBASEFEE | block.blobasefee    |
+| 5C     | TLOAD       | tload(key)          |
+| 5D     | TSTORE      | tstore(key, value)  |
+| 5E     | MCOPY       | mcopy()             |
 
 # Modified Opcodes
 

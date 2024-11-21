@@ -28,7 +28,7 @@ In order to use the UniFi Rollup Bridge, you need to have a compatible wallet an
    ![Transaction tab](/img/rollup/transaction-tab.png)
 8. After a few minutes, the transaction will be confirmed and the status will change to Claimed.
    ![Claimed transaction](/img/rollup/claimed-transaction.png)
-9. Once the transaction is confirmed, you can switch to the L2 network (Taiko) and see your bridged funds in your wallet.
+9. Once the transaction is confirmed, you can switch to the L2 network (UniFi) and see your bridged funds in your wallet.
 
 ### Claiming Manually (Optional)
 
@@ -45,4 +45,4 @@ If you want to claim your bridged funds manually, you can do so by following the
 1. Make sure that you've selected UniFi Testnet as your source chain
    ![Token Selection L2](/img/rollup/select-token-l2.png)
 
-2. The other steps are the same as when depositing ETH.
+2. The next steps are the same as when depositing ETH.

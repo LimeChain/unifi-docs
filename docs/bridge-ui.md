@@ -5,7 +5,8 @@ slug: /bridge-ui
 
 # Using the UniFi Bridge
 
-In order to use the UniFi Rollup Bridge, you need to have a compatible wallet and some funds on the L1 network. This guide will help you bridge your funds from the L1 network to the UniFi Rollup network.
+In order to use the UniFi Rollup Bridge, you need to have a compatible wallet and some funds on the L1 network.
+This guide will help you bridge your funds from the L1 network to the UniFi Rollup network.
 
 ## How to bridge (deposit) ETH to UniFi
 

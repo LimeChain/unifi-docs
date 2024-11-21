@@ -23,6 +23,6 @@ UniFi aims to drive long-term sustainability and value into Ethereum's base laye
 
 ### Get Started with UniFi Rollup
 
-To begin using UniFi, start by moving your testnet tokens using the [Move Funds to UniFi guide](/unifi-based-rollup-move-funds).
+To begin using UniFi, start by moving your testnet tokens using the [Move Funds to UniFi guide](/move-funds).
 
 By leveraging UniFi's Ethereum-based rollup, users can enjoy an efficient, decentralized, and unified experience while contributing to the long-term health of the Ethereum ecosystem.

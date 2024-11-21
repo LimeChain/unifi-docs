@@ -35,5 +35,3 @@ You can get tokens from the [Telegram Faucet Bot](https://t.me/unfitestnetfaucet
 ## Additional Resources
 
 - [MetaMask Support](https://support.metamask.io)
-
-By following these steps, you can successfully move your funds to the UniFi Rollup and start interacting with the network.

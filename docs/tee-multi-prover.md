@@ -14,6 +14,7 @@ We propose implementing an additional prover system by leveraging Trusted Execut
 ## Brief Overview
 
 ![Brief Overview](/img/tee-multi-prover/overview.png)
+*(Note: This design represents the ideal approach and may differ from the existing implementation.)*
 
 This diagram illustrates how the TEE Validity Proof interacts with the L1 rollup contract:
 	1.	Whenever the prover relayer needs to update the rollup state on L1, it sends a Proof of Block to the TEE Prover. The Proof of Block contains all the necessary states, enabling the TEE Prover to perform stateless state transitions.

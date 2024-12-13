@@ -40,7 +40,7 @@ const sidebars = {
         {
           type: "doc", 
           label: "TEE Multi Prover",
-          id: "developers/concept/tee-multi-prover",
+          id: "developers/concepts/tee-multi-prover",
         },
       ]
     },

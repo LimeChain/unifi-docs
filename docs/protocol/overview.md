@@ -16,9 +16,7 @@ The flow begins with users submitting **rollup transactions** to **UniFi Sequenc
 **Preconfirmations** are essentially "soft promises" from the sequencers that the transactions will be included in the next L1 block. These preconfirmations come with economic guarantees backed by penalties (slashing conditions) to ensure sequencer reliability. If a sequencer fails to include a transaction it has preconfirmed, it risks being slashed.
 
 ### 2️⃣ Block Proposal
-Once the sequencer has aggregated enough transactions, it bundles them into a **block**. This block is then **proposed** to UniFi’s **Rollup Contract** on the Ethereum L1. At this stage, no execution is performed. Ethereum validators simply record the block’s ordered transactions on the L1, and only transaction validation is performed on a contract level.
-
-It’s important to note that Ethereum validators are responsible for the order of inclusion of these **proposed block** transactions in the L1 chain. UniFi is **permissionless** and there could be multiple L2 sequencers proposing blocks at the same time. The L1 validators ultimately decide which block to include first.
+Once the sequencer has aggregated enough transactions, it bundles them into a **block**. This block is then **proposed** to UniFi’s **Rollup Contract** on the Ethereum L1. At this stage, no execution is performed. Ethereum validators simply record the block’s ordered transactions on the L1, and only transaction validation is performed on a contract level. It’s important to note that Ethereum validators are responsible for the order of inclusion of these **proposed block** transactions in the L1 chain, which is where the "based"-ness of UniFi comes into play.
 
 ### 3️⃣ Block Insertion
 When a proposed block is successfully included in the Ethereum L1 chain, the **UniFi Client** listens for this event. The client:

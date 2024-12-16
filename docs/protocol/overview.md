@@ -37,3 +37,10 @@ To generate a proof, provers create a **Proof of Block (PoB)** statement themsel
 - The attestation and cryptographic proof are submitted to UniFi’s L1 contract on Ethereum.
 - The L1 contract verifies the proof, ensuring that the state transitions are valid and match the ordered transactions.
 - Once verified, the block is considered **proven**, and the L1 state is updated to reflect this.
+
+### Verified block state
+In the L2 chain, a block is not considered truly final once it is proven; it must also be **verified**. Verification ensures that a block is not only proven but also part of a fully validated sequence of blocks. This requirement arises because blocks can be proposed and proven asynchronously. For instance, if block N has been proven, but its parent block N-1 has not yet been verified, block N cannot achieve the verified status. The verified state is crucial for the protocol as certain operations can only be performed on verified blocks (e.g., generating bridge proofs).
+
+Practically speaking, in order for a block to be considered **verified** it must meet the following conditions:
+- The block itself is proven: its cryptographic proof has been submitted and validated by the L1 contract.
+- Its parent block is also verified: This guarantees a continuous and valid chain back to the genesis block, which is inherently verified.

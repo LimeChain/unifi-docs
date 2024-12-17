@@ -42,3 +42,5 @@ In the L2 chain, a block is not considered truly final once it is proven; it mus
 Practically speaking, in order for a block to be considered **verified** it must meet the following conditions:
 - The block itself is proven: its cryptographic proof has been submitted and validated by the L1 contract.
 - Its parent block is also verified: This guarantees a continuous and valid chain back to the genesis block, which is inherently verified.
+
+![Block states](/img/rollup/block-states.png)
